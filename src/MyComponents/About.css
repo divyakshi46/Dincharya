@@ -1,0 +1,34 @@
+/* Container for both text and image */
+.about-container {
+    display: flex;            /* Use flexbox for horizontal layout */
+    align-items: flex-start;  /* Align items to the start of the container */
+    margin: 40px;             /* Margin around the container */
+    padding: 20px;            /* Padding inside the container */
+    max-width: 1400px;        /* Maximum width for better layout */
+    background-color: #f4f4f9; /* Light background color for contrast */
+    border: 1px solid #ddd;   /* Light border to define the container */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Style for the about-content */
+  .about-content {
+    flex: 2;                  /* Allow text container to take more space */
+    margin-right: 20px;       /* Margin between text and image */
+  }
+  
+  /* Container for the image */
+  .image-container {
+    flex: 1;                  /* Allow image container to take less space */
+    display: flex;            /* Center image within its container */
+    align-items: center;      /* Center image vertically */
+    justify-content: center;  /* Center image horizontally */
+  }
+  
+  /* Style for the image */
+  .about-image {
+    max-width: 100%;          /* Make sure image is responsive */
+    height: auto;             /* Maintain aspect ratio */
+    border-radius: 8px;      /* Rounded corners for the image */
+  }
+  

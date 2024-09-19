@@ -1,0 +1,54 @@
+.contact-us-container {
+    padding: 20px;
+    max-width: 800px;
+    min-height: 400px;
+    margin: 50px auto; /* Center the box horizontally and add margin at the top and bottom */
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background for the box */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .contact-us-container h1 {
+    font-size: 36px;
+    color: #3285a9; /* Match your header color */
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-us-container ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us-container ul li::before {
+    content: "• ";
+    color: #3285a9; /* Match your header color */
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-us-container {
+      padding: 10px;
+    }
+  
+    .contact-us-container h1 {
+      font-size: 28px;
+    }
+  
+    .contact-us-container p,
+    .contact-us-container ul li {
+      font-size: 16px;
+    }
+  }
+  

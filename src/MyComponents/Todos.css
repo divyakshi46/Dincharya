@@ -1,0 +1,29 @@
+/* Centering the container and giving additional styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    min-height: 15vh; /* Height to make it cover most of the screen */
+    background-color: #f9f9f9; /* Light background color */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Inner padding */
+    margin: 40px auto; /* Centered horizontally */
+    max-width: 600px; /* Restrict the width */
+  }
+  
+  h3 {
+    color: #526ac5; /* Darker color for the heading */
+    font-size: 24px;
+    font-weight: Bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the message when there are no todos */
+  .container::before {
+    content: "";
+    height: 10px;
+  }
+  

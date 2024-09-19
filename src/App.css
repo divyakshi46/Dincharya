@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the page takes the full height */
+}
+
+.container {
+  flex: 1; /* Takes up remaining space so the footer stays at the bottom */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Optional */
+  border-top: 1px solid #e7e7e7; /* Optional */
+  width: 100%;
+}

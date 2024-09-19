@@ -1,0 +1,54 @@
+/* Ensure the background color of the navbar is applied */
+.navbar {
+  background-color: #3285a9 !important; /* Green background */
+  padding: 15px;
+}
+
+/* Styling the navbar brand (title and logo) */
+.navbar-brand {
+  color: #fff !important; /* White text color */
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Preventing the title color change on hover */
+.navbar-brand:hover {
+  color: #fff !important; /* Keep the text white when hovering over DinCharya */
+}
+
+/* Styling the navigation links */
+.nav-link {
+  color: #fff !important; /* White text color */
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for the navigation links */
+.nav-link:hover {
+  color: #f3e356 !important; /* Yellow on hover */
+}
+
+/* Active link styling */
+.nav-link.active {
+  color: #f3e356 !important; /* Yellow color for active page */
+}
+
+/* Styling the navbar-toggler-icon for mobile view */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+/* Styling for the logo image */
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Right-align the new links */
+.navbar-nav.ms-auto {
+  margin-left: auto;
+}
